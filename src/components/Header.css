@@ -1,19 +1,19 @@
-header {
+.header {
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1em;
+.nav-links a {
+  color: #333; /* dark grey */
+  font-size: 18px;
+  padding: 0.5em;
+  transition: all 0.3s ease-in-out;
 }
 
-nav ul li a:hover {
+.nav-links a:hover {
+  color: #ffd700; /* gold for hover */
   text-decoration: underline;
 }
 
@@ -23,5 +23,11 @@ nav ul li a:hover {
   right: 1em;
   display: flex;
   gap: 1em;
-  font-size: 24px;
+  font-size: 30px;
+  color: #333; /* dark grey */
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media-icons i:hover {
+  color: #ffd700; /* gold for hover */
 }

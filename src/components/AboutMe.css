@@ -1,5 +1,23 @@
 .about-me {
-  background-image: url("C:\Users\User\MyPortfolio\public");
-  background-size: cover;
-  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; /* Adjust this to your needs */
+  height: 100vh;
+  margin-top: -50px; /* Negative margin to move the content up */
+}
+
+.typing-text {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.other-details {
+  font-size: 18px;
+}
+
+.profile-picture {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }

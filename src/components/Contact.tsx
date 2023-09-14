@@ -1,5 +1,5 @@
 const Contact = () => {
-  return <div>Contact Placeholder</div>;
+  return <div id="contact">{/* Your skills content */}</div>;
 };
 
 export default Contact;

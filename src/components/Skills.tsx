@@ -1,5 +1,5 @@
 const Skills = () => {
-  return <div>Skills Placeholder</div>;
+  return <div id="skills">{/* Your skills content */}</div>;
 };
 
 export default Skills;

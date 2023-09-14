@@ -59,3 +59,21 @@
 .author {
   font-size: 24px;
 }
+
+@media (max-width: 768px) {
+  .typing-text {
+    font-size: 24px;
+  }
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+  }
+  .quote-text,
+  .author {
+    font-size: 18px;
+  }
+  .about-me {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

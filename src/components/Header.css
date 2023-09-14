@@ -1,21 +1,22 @@
 .header {
-  padding: 1em 2em;
+  padding: 1rem 2rem; /* Adjusted to rem */
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #f3f3f3, #e6e6e6);
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-links a {
   color: #333;
-  font-size: 18px;
-  padding: 0.5em;
+  font-size: 1.125rem;
+  padding: 0.5rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -27,15 +28,36 @@
 .social-media-icons {
   display: flex;
   gap: 1em;
-  font-size: 30px;
+  font-size: 2rem;
   color: #333;
   transition: all 0.3s ease-in-out;
 }
 
+.social-media-icons i:hover {
+  color: #ffd700;
+}
+/*need this for hackerrank icon hover effect*/
 .hackerrank-icon:hover {
   color: #ffd700;
 }
 
-.social-media-icons i:hover {
-  color: #ffd700;
+/* Mobile */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-media-icons {
+    margin-top: 0.5rem;
+    gap: 0.5em;
+    font-size: 1.5rem;
+  }
 }

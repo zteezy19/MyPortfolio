@@ -1,22 +1,21 @@
 import React from "react";
 import "./App.css";
 import "font-awesome/css/font-awesome.min.css";
-
 import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
+import LandingPage from "./components/LandingPage";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
-      <div className="AboutMe">
-        <AboutMe />
+      <div className="LandingPage">
+        <LandingPage />
       </div>
       <Projects />
-      <Skills />
+      <AboutMe />
       <Contact />
     </div>
   );

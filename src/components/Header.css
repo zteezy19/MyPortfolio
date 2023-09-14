@@ -32,6 +32,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+.hackerrank-icon:hover {
+  color: #ffd700;
+}
+
 .social-media-icons i:hover {
   color: #ffd700;
 }

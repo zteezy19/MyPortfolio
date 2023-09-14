@@ -1,0 +1,11 @@
+.about-me {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.about-image img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 150px;
+  height: 150px;
+}

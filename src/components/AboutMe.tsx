@@ -1,15 +1,12 @@
-import "./AboutMe.css";
+import Typewriter from "react-ts-typewriter";
 
 const AboutMe = () => {
   return (
     <div className="about-me">
-      <div className="about-text">
-        <h2>About Me</h2>
-        <p>Your introduction here.</p>
-      </div>
-      <div className="about-image">
-        <img src="path/to/your/image.jpg" alt="Your name" />
-      </div>
+      <h1>
+        <Typewriter text="Hello! I'm Wai Yan Zaw Tin." />
+      </h1>
+      <p>// Your additional content goes here</p>
     </div>
   );
 };

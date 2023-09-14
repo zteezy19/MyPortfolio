@@ -1,4 +1,6 @@
 import "./Header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHackerrank } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   return (
@@ -21,7 +23,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa fa-code" aria-hidden="true"></i>
+          <FontAwesomeIcon icon={faHackerrank} />
         </a>
         <a
           href="https://github.com/zteezy19"

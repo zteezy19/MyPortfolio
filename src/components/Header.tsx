@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="nav-links">
-        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contact Me</a>
       </div>
       <div className="social-media-icons">
         <a

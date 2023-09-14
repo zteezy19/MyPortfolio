@@ -10,11 +10,15 @@ const AboutMe = () => {
         </div>
         <div className="other-details">
           <p>
-            I am a software developer currently based in Singapore. I am
-            passionate about <span className="highlight">Python</span> and have
-            experience in{" "}
-            <span className="highlight">React, TypeScript, Java</span> and{" "}
-            <span className="highlight">C++</span>.
+            Currently based in Singapore, my first love in programming is{" "}
+            <span className="highlight">Python</span>. My technical expertise
+            spans a variety of frontend and backend technologies, including{" "}
+            <span className="highlight">React</span>,{" "}
+            <span className="highlight">TypeScript</span>,{" "}
+            <span className="highlight">Java</span>, and{" "}
+            <span className="highlight">C++</span>. Ever eager to dive into new
+            challenges, I relish crafting efficient and scalable software
+            solutions.
           </p>
         </div>
       </div>

@@ -3,31 +3,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(to right, #f3f3f3, #e6e6e6);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .nav-links a {
-  color: #333; /* dark grey */
+  color: #333;
   font-size: 18px;
   padding: 0.5em;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
-  color: #ffd700; /* gold for hover */
+  color: #ffd700;
   text-decoration: underline;
 }
 
 .social-media-icons {
-  position: fixed;
-  top: 1em;
-  right: 1em;
   display: flex;
   gap: 1em;
   font-size: 30px;
-  color: #333; /* dark grey */
+  color: #333;
   transition: all 0.3s ease-in-out;
 }
 
 .social-media-icons i:hover {
-  color: #ffd700; /* gold for hover */
+  color: #ffd700;
 }

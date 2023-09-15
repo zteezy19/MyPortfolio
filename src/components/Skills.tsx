@@ -72,7 +72,8 @@ const skillsArray = [
 const Skills: React.FC = () => {
   return (
     <div className="skills">
-      <h2>My Skills</h2>
+      <h2>🎓Skills👩‍💻</h2>
+      <br></br>
       <div className="skills-section">
         {skillsArray.map((skill, index) => (
           <div key={index} className="skill-container">

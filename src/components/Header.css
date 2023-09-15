@@ -1,5 +1,6 @@
 .header {
   padding: 1rem 2rem; /* Adjusted to rem */
+  font-size: 1.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

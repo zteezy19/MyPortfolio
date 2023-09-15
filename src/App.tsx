@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const App: React.FC = () => {
       </div>
       <div id="AboutMe">
         <AboutMe />
+      </div>
+      <div id="Skills">
+        <Skills />
       </div>
       <div id="Contact">
         <Contact />

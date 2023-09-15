@@ -1,10 +1,11 @@
 .about-me {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Change from space-between to center */
   align-items: center;
   padding: 1rem;
-  height: 100vh; /* This ensures the full vertical height */
+  height: 100vh; /* Ensure the section takes up the full viewport height */
   margin-top: -50px; /* Negative margin to move the content up */
+  width: 100%; /* Ensure it takes up full width */
 }
 
 .typing-text {

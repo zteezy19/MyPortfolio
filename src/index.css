@@ -1,20 +1,18 @@
 :root {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #faf3e0;
   color: #333;
-}
-
-#root {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: ivory;
+  background-color: #faf3e0;
+  min-height: 100vh;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
 }
 
 a {

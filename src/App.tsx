@@ -1,7 +1,5 @@
 import React from "react";
-
 import "font-awesome/css/font-awesome.min.css";
-
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -12,12 +10,18 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
-      <div className="Home">
+      <div id="Home">
         <Home />
       </div>
-      <Projects />
-      <AboutMe />
-      <Contact />
+      <div id="Projects">
+        <Projects />
+      </div>
+      <div id="AboutMe">
+        <AboutMe />
+      </div>
+      <div id="Contact">
+        <Contact />
+      </div>
     </div>
   );
 };

@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="nav-links">
-        <a href="home">Home</a>
-        <a href="#skills">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact Me</a>
+        <a href="#Home">Home</a>
+        <a href="#Skills">About Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact Me</a>
       </div>
       <div className="social-media-icons">
         <a

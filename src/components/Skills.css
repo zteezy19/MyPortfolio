@@ -1,12 +1,28 @@
 .skills-section {
+  background-color: beige; /* Or any color you prefer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.skills-container {
+  width: 970px;
+  height: auto; /* Let it adjust according to content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-content {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 20px;
 }
 
 .skill-icon {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -25,7 +41,7 @@
 
 .skills h2 {
   color: #333;
-  font-size: 2.5rem;
+  font-size: 24px; /* 24px to match the About Me section */
   margin-bottom: 40px;
   font-family: "Arial", sans-serif;
 }

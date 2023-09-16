@@ -71,18 +71,20 @@ const skillsArray = [
 
 const Skills: React.FC = () => {
   return (
-    <div className="skills">
-      <h2>🎓Skills👩‍💻</h2>
-      <br></br>
-      <div className="skills-section">
-        {skillsArray.map((skill, index) => (
-          <div key={index} className="skill-container">
-            <img className="skill-icon" src={skill.src} alt={skill.alt} />
-            <span className="tooltip">{skill.alt}</span>
-          </div>
-        ))}
+    <section className="skills-section">
+      <div className="skills-container">
+        <h2>🎓Skills👩‍💻</h2>
+
+        <div className="skills-content">
+          {skillsArray.map((skill, index) => (
+            <div key={index} className="skill-container">
+              <img className="skill-icon" src={skill.src} alt={skill.alt} />
+              <span className="tooltip">{skill.alt}</span>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

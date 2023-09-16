@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="nav-links">
         <a href="#Home">Home</a>
-        <a href="#Skills">About Me</a>
+        <a href="#AboutMe">About Me</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact Me</a>
       </div>
@@ -36,7 +36,7 @@ const Header = () => {
         </a>
 
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:waiyanzawtin01@protonmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >

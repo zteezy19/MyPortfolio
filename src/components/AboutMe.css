@@ -1,0 +1,54 @@
+.about-me-section {
+  background-color: beige; /* set background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-me-container {
+  background-color: beige;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* align items to start at the same height */
+  padding: 2rem;
+  width: 970px;
+  height: 355.5px;
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title-container h1 {
+  margin: 0;
+  font-size: 24px; /* Changing to 24px to match Skills section */
+}
+
+.title-container h2 {
+  margin: 0;
+  color: saddlebrown;
+  font-size: 26px; /* A subtle increase in size compared to the title */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left; /* Left align text */
+}
+
+.cat-picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10%;
+  margin-right: 1rem;
+}
+
+.about-me-text {
+  font-size: 24px; /* Increase font size for content text */
+  width: 50%;
+}

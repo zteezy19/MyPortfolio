@@ -1,5 +1,5 @@
-const Contact = () => {
+const Footer = () => {
   return <div id="contact">{/* Your skills content */}</div>;
 };
 
-export default Contact;
+export default Footer;

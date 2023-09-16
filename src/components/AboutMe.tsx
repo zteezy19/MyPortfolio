@@ -5,7 +5,9 @@ const AboutMe = () => {
   return (
     <div className="about-me-container">
       <h2>About Me 👩‍💻</h2>
-      <h3>Junior Software Developer Currently Based in Singapore📍</h3>
+      <h3>
+        Dedicated Junior Software Developer Currently Based in Singapore📍
+      </h3>
       <div className="content-wrapper">
         <div className="about-me-text">
           <h4>My Origin🌏</h4>

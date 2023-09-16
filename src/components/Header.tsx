@@ -9,7 +9,13 @@ const Header = () => {
         <a href="#Home">Home</a>
         <a href="#AboutMe">About Me</a>
         <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact Me</a>
+        <a
+          href="https://zteezydevresume2023.s3.ap-southeast-2.amazonaws.com/WaiYanZT_Resume23.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
       </div>
       <div className="social-media-icons">
         <a

@@ -24,15 +24,20 @@ const AboutMe = () => {
 
           <h4>What Drives Me 🌌</h4>
           <p>
-            Passion isn't just a buzzword for me; it's my work ethic
-            cornerstone. The prospect of crafting software solutions that impact
-            lives fuels me.
+            Software engineering isn't just a job for me—it's a craft I deeply
+            respect and continuously strive to master. What really gets me going
+            is the idea that the lines of code I write today can solve
+            real-world problems and improve people's lives tomorrow. The
+            fulfillment I get from transforming an abstract idea into a
+            functional solution is incomparable.
           </p>
-
-          <p>My tech stack is listed below:</p>
         </div>
-        <div className="right-side-content">
-          {/* Whatever you'd like to add on the right */}
+        <div className="profile-picture-container">
+          <img
+            src="/MyPicture.jpeg"
+            alt="Wai Yan Zaw Tin"
+            className="profile-picture"
+          />
         </div>
       </div>
 
@@ -47,7 +52,6 @@ const AboutMe = () => {
         />
         <Tooltip id="js-tooltip" />
 
-        {/* Additional icons with tooltips */}
         {/* TypeScript */}
         <img
           data-tooltip-id="ts-tooltip"

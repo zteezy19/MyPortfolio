@@ -1,38 +1,56 @@
 .about-me-container {
-  background-color: whitesmoke; /* Changed to white for card-like feel */
+  background-color: whitesmoke;
   padding: 4rem;
-  margin: 3rem auto; /* Added margin around the card */
-  max-width: 63.33%; /* Limit the width */
+  margin: 3rem auto;
+  max-width: 63.33%;
   text-align: center;
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
-  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-text {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  flex: 1;
+}
+
+.right-side-content {
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.about-me-text {
-  width: 40%; /* increased width for readability */
-  text-align: center; /* gives a more professional look */
-  margin-bottom: 2rem; /* some space before the icons */
-  margin-top: 0.5rem;
+.profile-picture-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
 }
 
 h1 {
-  margin-bottom: 3rem; /* Further increase space below main title */
+  margin-bottom: 3rem;
 }
 
 h3 {
   font-family: "Arial", sans-serif;
   margin-bottom: 1rem;
-  margin-top: 1rem; /* Add space above subtitle */
+  margin-top: 1rem;
   font-weight: 600;
-  color: #5d4037 !important; /* Add !important to enforce color change */
+  color: #5d4037 !important;
 }
 
 p {
   font-family: "Georgia", serif;
-  line-height: 1.8; /* increased for readability */
+  line-height: 1.8;
   margin-bottom: 1.5rem;
   text-align: justify;
 }
@@ -40,12 +58,12 @@ p {
 .icon-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* centers the icons */
-  background: linear-gradient(to right, #f0f1f6, #dbe7fd); /* Adds gradient */
+  justify-content: center;
+  background: linear-gradient(to right, #f0f1f6, #dbe7fd);
   padding: 1rem;
-  border-radius: 12px; /* Adds rounded corners */
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
-  margin-top: 2rem; /* Adds some space between text and container */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
 }
 
 .tech-icon {
@@ -57,4 +75,19 @@ p {
 
 .tech-icon:hover {
   transform: scale(1.1);
+}
+
+.profile-picture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.profile-picture:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

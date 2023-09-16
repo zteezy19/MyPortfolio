@@ -13,11 +13,6 @@ const Home = () => {
           <cite className="author"> — Linus Torvalds</cite>
         </div>
       </div>
-      <img
-        src="/MyPicture.jpeg"
-        alt="Wai Yan Zaw Tin"
-        className="profile-picture"
-      />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="about-me">
+    <div className="home">
       <div className="text-container">
         <div className="typing-text">
           <Typewriter text="Hi! I'm Wai Yan Zaw Tin." speed={200} />

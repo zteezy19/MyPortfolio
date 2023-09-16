@@ -1,6 +1,8 @@
 :root {
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
+  --base-title-size: 52px;
+  --base-subtitle-size: 32px;
 }
 
 body {

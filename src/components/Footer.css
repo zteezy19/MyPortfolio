@@ -1,0 +1,30 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #fffff0, #ffff00);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media-icons a:hover {
+  color: #ffd700;
+}
+
+.copyright {
+  color: #f3f3f3;
+}

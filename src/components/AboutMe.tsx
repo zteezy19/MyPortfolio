@@ -9,7 +9,7 @@ const AboutMe = () => {
         <MacButtons />
       </div>
 
-      <h2>About Me 👩‍💻</h2>
+      <h2>About Me 👨‍💻</h2>
       <h3>
         Dedicated Junior Software Developer Currently Based in Singapore📍
       </h3>
@@ -17,28 +17,33 @@ const AboutMe = () => {
         <div className="about-me-text">
           <h4>My Origin🌏</h4>
           <p>
-            I spent my formative years in Yangon, Myanmar, before relocating to
-            Singapore. My original career path was in Electrical & Electronics
-            Engineering at Singapore Polytechnic.
+            I grew up in Yangon, Myanmar, a place far removed from the world's
+            tech hubs. Yet, it was there that my engineering journey began,
+            inspired in part by reading about Steve Jobs and the debut of the
+            first iPhone when I was just 12 years old. The stories fueled a
+            burning curiosity in me that carried all the way to Singapore, where
+            I initially pursued Electrical & Electronics Engineering at
+            Singapore Polytechnic. While the curriculum opened many doors, it
+            was a coding class that made me feel truly at home. Python was my
+            first love, and I haven't looked back since.
           </p>
-
-          <h4>Career Pivot 🎓</h4>
+          <h4>My Journey & Passion: From Circuit Boards to Code 🎓🌌</h4>
           <p>
-            After an electrical engineering internship with a telecommunications
-            firm, I pivoted into Computer Science. Recently completing my
-            Bachelor's, I'm now eyeing a Master's degree.
-          </p>
-
-          <h4>What Drives Me 🌌</h4>
-          <p>
-            Software engineering isn't just a job for me—it's a craft I deeply
-            respect and continuously strive to master. What really gets me going
-            is the idea that the lines of code I write today can solve
-            real-world problems and improve people's lives tomorrow. The
-            fulfillment I get from transforming an abstract idea into a
-            functional solution is incomparable.
+            {" "}
+            After spending six months as an electrical engineer intern, I found
+            myself at a crossroads. It was then that I decided to commit to
+            computer science, an area that had always intrigued me. On the
+            advice of friends, I took up a remote internship, diving headfirst
+            into the world of web development alongside a team of like-minded
+            individuals. But for me, software engineering isn't just a career
+            switch—it's a craft that I hold in the highest regard. What fuels my
+            journey is the exhilarating notion that the lines of code I write
+            today have the power to solve tangible problems and enhance people's
+            lives tomorrow. This sense of turning abstract concepts into
+            functional solutions gives me an unparalleled sense of fulfillment.
           </p>
         </div>
+
         <div className="profile-picture-container">
           <img
             src="/MyPicture.jpeg"

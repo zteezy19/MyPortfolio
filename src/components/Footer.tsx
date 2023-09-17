@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         </a>
       </div>
       <p className="copyright">
-        Copyright © 2023, Your Name. All rights reserved.
+        Copyright © 2023, Wai Yan Zaw Tin. All rights reserved.
       </p>
     </footer>
   );

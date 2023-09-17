@@ -6,11 +6,18 @@ const Home = () => {
     <div className="home">
       <div className="text-container">
         <div className="typing-text">
-          <Typewriter text="Hi! I'm Wai Yan Zaw Tin." speed={200} />
+          <Typewriter
+            text="Hi! I'm Wai Yan, a Full-Stack Software Engineer."
+            speed={200}
+          />
         </div>
+
         <div className="quote-container">
-          <span className="quote-text">Talk is cheap. Show me the code.</span>
-          <cite className="author"> — Linus Torvalds</cite>
+          <span className="quote-text">
+            The people who are crazy enough to think they can change the world
+            are the ones who do.
+          </span>
+          <cite className="author"> — Steve Jobs</cite>
         </div>
       </div>
     </div>

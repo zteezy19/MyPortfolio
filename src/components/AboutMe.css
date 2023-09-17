@@ -82,6 +82,7 @@ p {
 .profile-picture {
   width: 300px;
   height: 300px;
+  margin-top: 5rem;
   object-fit: cover;
   margin-left: 5rem;
   border-radius: 20px;
@@ -107,7 +108,7 @@ p {
 
 .mac-buttons {
   display: flex;
-  gap: 4px; /* Reduce the gap a bit if needed */
+  gap: 4px;
   margin-left: 5px;
 }
 

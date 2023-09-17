@@ -1,9 +1,14 @@
 import "./AboutMe.css";
 import { Tooltip } from "react-tooltip";
+import MacButtons from "./MacButtons";
 
 const AboutMe = () => {
   return (
     <div className="about-me-container">
+      <div className="mac-bar">
+        <MacButtons />
+      </div>
+
       <h2>About Me 👩‍💻</h2>
       <h3>
         Dedicated Junior Software Developer Currently Based in Singapore📍

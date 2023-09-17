@@ -8,7 +8,7 @@ const Home = () => {
         <div className="typing-text">
           <Typewriter
             text="Hi! I'm Wai Yan, a Full-Stack Software Engineer."
-            speed={200}
+            speed={300}
           />
         </div>
 

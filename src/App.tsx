@@ -13,12 +13,13 @@ const App: React.FC = () => {
       <div id="Home">
         <Home />
       </div>
-      <div id="Projects">
-        <Projects />
-      </div>
       <div id="AboutMe">
         <AboutMe />
       </div>
+      <div id="Projects">
+        <Projects />
+      </div>
+
       <div id="Footer">
         <Footer />
       </div>

@@ -18,5 +18,5 @@ Libraries Used
 --------------------------------------------------------------------------------
 react-ts-typewriter: For the Typewriter effect in the "About Me"section.
 Font Awesome: For scalable vector icons that can be customized with CSS.
-
+react-icons: Used the devicons library and font-awesome library which came with the react-icons library package.
 

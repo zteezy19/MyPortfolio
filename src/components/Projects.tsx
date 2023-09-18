@@ -105,6 +105,49 @@ const Projects = () => {
           </span>
         </div>
 
+        {/* Portfolio Website Project */}
+        <div className="terminal-project-title">
+          <span>Personal Portfolio Website</span>
+        </div>
+        <div>
+          <span className="terminal-prompt">~$</span>
+          <span>Project Name: MyPortfolio</span>
+        </div>
+        <div>
+          <span className="terminal-prompt">~$</span>
+          <span>
+            Technologies Used:
+            <span className="terminal-tech"> React</span>,
+            <span className="terminal-tech"> TypeScript</span>,
+            <span className="terminal-tech"> Vite</span>,
+            <span className="terminal-tech"> CSS3</span>
+          </span>
+        </div>
+        <div>
+          <span className="terminal-prompt">~$</span>
+          <span>
+            Description: This portfolio website serves as a dynamic resume,
+            showcasing my skills, projects, and experiences as a software
+            developer. The design approach was sleek and minimalistic. I learned
+            TypeScript on the go as I developed this project while juggling my
+            last semester in school and jobhunting. I am especially proud of it.
+          </span>
+        </div>
+        <div>
+          <span className="terminal-prompt">~$</span>
+          <span>
+            GitHub:{" "}
+            <a
+              href="https://github.com/zteezy19/MyPortfolio"
+              target="_blank"
+              rel="noreferrer"
+              className="terminal-link"
+            >
+              View the code here.
+            </a>
+          </span>
+        </div>
+
         {/* More Coming Soon */}
         <div className="terminal-project-title">
           <span>More Coming Soon..</span>

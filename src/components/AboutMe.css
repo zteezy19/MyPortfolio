@@ -136,38 +136,31 @@ p {
   background-color: #00ca4e;
 }
 
-/* For the terminal-like look */
-.terminal {
-  background-color: #000;
-  color: #fff;
-  font-family: "Courier New", Courier, monospace;
-  padding: 2rem;
-  border-radius: 5px;
-  overflow-x: auto; /* In case the text overflows */
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-picture-container,
+  .about-me-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-/* Adding the terminal prompt look */
-.terminal-prompt {
-  color: #00ff00; /* Green color just like in zsh */
-  margin-right: 0.5rem;
-}
-
-/* Reusing the .about-me-container for the Projects section */
-.projects-container {
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 4rem;
-  margin: 3rem auto;
-  max-width: 63.33%;
-  text-align: center;
-  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  position: relative;
-}
-
-.mac-bar-title {
-  margin-left: 10px;
-  margin-right: auto;
-  color: white;
-  font-weight: bold;
+@media screen and (max-width: 480px) {
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 2rem;
+  }
 }

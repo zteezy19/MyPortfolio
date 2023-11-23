@@ -14,11 +14,11 @@ const Projects = () => {
       </div>
       <div className="terminal">
         <div className="terminal-project-title">
-          <span>Final Year Project@University</span>
+          <span>Medical Appointment Application</span>
         </div>
         <div>
           <span className="terminal-prompt">~$</span>
-          <span>Project Name: Medical Appointment System</span>
+          <span>Project Name: GoDoctor</span>
         </div>
         <div>
           <span className="terminal-prompt">~$</span>
@@ -45,12 +45,12 @@ const Projects = () => {
           <span>
             GitHub:{" "}
             <a
-              href="https://github.com/yourusername/Medical-Appointment-System"
+              href="https://github.com/zteezy19/CSIT321-FYP"
               target="_blank"
               rel="noreferrer"
               className="terminal-link"
             >
-              Unfortunately, this repo is private.
+              View the code here.
             </a>
           </span>
         </div>

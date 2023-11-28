@@ -40,16 +40,30 @@
   .typing-text {
     font-size: calc(var(--base-title-size) / 2);
   }
+
   .quote-text,
   .author {
     font-size: calc(var(--base-subtitle-size) / 2);
   }
+
+  .quote-container::before,
+  .quote-container::after {
+    content: none;
+  }
+
   .profile-picture {
     width: 200px;
     height: 200px;
   }
+
   .about-me {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  body,
+  html {
+    overflow-x: hidden;
+    max-width: 100%;
   }
 }

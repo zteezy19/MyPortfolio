@@ -10,7 +10,7 @@ const Header = () => {
         <a href="#AboutMe">About Me</a>
         <a href="#Projects">Projects</a>
         <a
-          href="https://zteezydevresume2023.s3.ap-southeast-2.amazonaws.com/WaiYanZawTin24_Resume.pdf"
+          href="https://zteezydevresume2023.s3.ap-southeast-2.amazonaws.com/WaiYanZT_SWE_Resume2024.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
